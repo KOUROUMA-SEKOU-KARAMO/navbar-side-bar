@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 *, html,body{
      margin: 0;
      padding: 0;
      box-sizing: border-box;
+    font-family: "Inter",sans-serif;
 }
 
 nav{
@@ -92,16 +94,40 @@ nav ul li a:hover{
 
 .container .container .side-bar ul{
  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: min-content; */
 }
 
+/* .container .container-left .side-bar ul li{
+list-style-type: none;
+padding: 7px 0 7px 0;
+background-color: blue;
+border-bottom: 1px solid rgb(193, 186, 186);
+}
+ */
 .container .container-left .side-bar ul li{
 list-style-type: none;
 padding: 7px 0 7px 0;
-/* background-color: blue; */
-border-bottom: 1px solid rgb(193, 186, 186);
+margin : 5px auto ;
+display: flex;
+justify-content: center;
+align-items: center;
+background:#00008B;
+box-shadow: 2px 3px 4px 1px #504e4e;
+border-radius: 5px;
+
 }
-.container .container-left .side-bar ul li{
-list-style-type: none;
+
+.container .container-left .side-bar ul li .fas{
+display: block;
+margin: 0 20px 0 0 ;
+color: white;
+}
+.container .container-left .side-bar ul li span{
+display: none;
+margin: 0 20px 0 0 ;
+color: white;
 }
 
 
